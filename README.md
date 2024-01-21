@@ -41,7 +41,7 @@ The application should now be running on http://localhost:8080.
 #### Get summarize case
 
 Returns COVID-19 summary data, counting the number of cases by provinces and age groups.
-```http
+```
   GET /covid/summary
 ```
 
@@ -49,7 +49,7 @@ Returns COVID-19 summary data, counting the number of cases by provinces and age
 The response is a JSON object with the following structure:
 
 
-```json
+```
 {
   "Provinces": {
     "Amnat Charoen": 17,
